@@ -1,0 +1,140 @@
+
+
+
+.box1{
+    
+    height: 300px;
+    width: 300px;
+    background-color: black;
+    font-size: 5em;
+    justify-content: center;
+    /*padding: 50px;*/
+    padding-left: 180px;
+    color: white;
+
+    /* 
+    align-items: center;*/
+    /* text-align: center;*/
+    padding-top: 80px;
+  
+}
+
+@media(max-width:500px){
+
+ .box1{
+     
+     
+     background-color: red; 
+ }
+
+}
+.flexcontainer{
+     
+     display: flex; 
+    border: 2px solid black;
+    /* width: 400px; */
+    height: 500px;
+    justify-content: space-around; */
+    /* justify-content: space-between; */
+    /* justify-content: space-evenly;  
+    flex-direction: row-reverse; */
+    /* flex-wrap: wrap;  */
+    /* justify-content: center; 
+    margin-bottom: 200px;
+    justify-content: space-between;
+    margin-top: 100px;
+ 
+ 
+ }
+ 
+ .boxes{
+  
+  height: 150px;
+  width: 200px;
+  border: 2px solid black;
+  background-color: skyblue;
+  font-size: 40px;
+  padding-top: 70px;
+  text-align: center;
+  margin-top: 60px; 
+  
+ }
+
+ 
+ /* @media (max-width:500px) {
+     .flexcontainer{
+
+        flex-direction: ;
+     }
+ } */
+
+ @media (max-width:500px) {
+    .flexcontainer{
+    
+         flex-direction:column; 
+        
+    }
+}   
+
+@media(min-width:500px){
+
+    .flexcontainer{
+    
+        flex-direction:row;
+        
+    }
+   
+} 
+.flex-container{
+  height: 800px;
+    display: flex;
+    border: 2px solid black;
+     justify-content: space-evenly;
+     padding: 50px;
+}
+.flex1{
+
+   width: 300px;
+   height: 300px;
+   background-color: white;
+   flex-direction: column;
+   /* border: 2px solid blue; */
+   /* row-gap: 1rem; */
+   
+
+}
+.row1{
+    text-align: center;
+    
+}
+
+#p1{
+
+    font-size: 100px;
+    width: 300px;
+    height: 150px;
+    border: 2px solid black;
+   
+}
+@media(max-width:811px){
+
+    .flex-container{
+    
+        flex-direction:column;
+        
+    }
+   
+} 
+
+
+.tex1{
+
+    border: 2px solid black;
+    height: 200px;
+    width: 300px;
+    font-size: 40px;
+    color: black;
+  justify-content: space-between;
+
+}
+

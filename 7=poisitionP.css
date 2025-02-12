@@ -1,0 +1,45 @@
+.container{
+ 
+  border: 5px solid black;
+  height: 1000px;
+  width: 100%;
+   /* align-items: center; */
+ 
+  /* justify-self: unset; */
+  margin-bottom: 1000px;
+
+
+}
+
+#img1{ 
+
+  position:static;
+  border: 2px solid black;
+  justify-content: space-between; 
+   
+}
+#img2{
+     
+    position:relative;
+    top: 500px; left: 0px;
+
+   
+    /* padding-left: 100px; */
+     /* padding-bottom: 400px; */
+     padding-top: 50px;
+}
+
+#img3{
+
+    position: sticky;
+    top:100px;
+    border: 2px solid black;
+    justify-content: space-between; 
+     
+
+}
+#img4{
+    border: 2px solid black;
+    justify-content: space-between; 
+     
+}

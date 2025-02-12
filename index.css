@@ -1,0 +1,49 @@
+.table{
+
+
+    border: 2px solid black;
+
+    padding: 50px;
+    color: black;
+    background-color: lightblue;
+    
+}
+.table:th{
+    padding: 50px;
+}
+
+body{
+    background-color: rgb(191, 120, 120);
+    color: white;
+
+    
+
+}
+
+
+/* table.css */
+.table {
+    border-collapse: collapse; /* Removes double borders */
+    /* margin: 100px; */
+    width: 90%;
+    
+    padding: 20px;
+   
+    
+}
+
+.table th, 
+.table td {
+    padding: 12px;  /* Adjust padding as needed */
+    border: 1px solid black; /* Optional: Adds borders */
+    font-size: 20px;
+}
+
+h1{
+    
+    text-align: center;
+    /* margin-left: 70px; */
+    font-size: 40px;
+    background-color: black;
+
+}
